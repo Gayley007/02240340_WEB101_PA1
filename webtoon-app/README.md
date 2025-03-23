@@ -12,7 +12,7 @@ In this assignment I applied the fundamental web development concepts to recreat
 ### 🛠️ Installation
 
 1. **Clone the Repository**:
-   Clone the repository to your local machine using the command:
+   Clone the repository using the command:
    ```sh  
    git clone 
    cd webtoon-app
@@ -23,7 +23,6 @@ In this assignment I applied the fundamental web development concepts to recreat
    ```sh
    npm install
    ```
-   This will install all the packages listed in the `package.json` file.
 
 3. **Run the Development Server**:
    Start the development server to preview the application:
@@ -79,5 +78,5 @@ webtoon-app/
 ### 📚 References
 - the actual web link (https://www.webtoons.com/en/)
 - https://chatgpt.com/
-- 
+- https://www.geeksforgeeks.org/front-end-development/
 - 
