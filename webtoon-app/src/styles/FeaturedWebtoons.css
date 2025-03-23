@@ -1,0 +1,16 @@
+.featured-webtoons {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    padding-left: 11%;
+  }
+  
+  .webtoon-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 250px); 
+    row-gap: 40px;
+  }
+
+  .webtoon-card {
+    height: 200px; 
+    width: 190px; 
+  }

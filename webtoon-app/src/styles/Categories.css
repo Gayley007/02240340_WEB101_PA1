@@ -1,0 +1,29 @@
+.categories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px; 
+  background-color: white; 
+  border-top: 1px solid #e0e0e0; 
+  border-bottom: 1px solid #e0e0e0; 
+}
+
+.category-btn {
+  background: transparent;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  color: black;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.category-btn:hover {
+  color: #00D465; 
+}
+
+.category-btn.active {
+  background-color: #00D465; 
+  color: white; 
+  padding: 22px 40px;
+}

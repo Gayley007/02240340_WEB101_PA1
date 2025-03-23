@@ -1,0 +1,49 @@
+/* 🌎 Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* 📏 Container to center content */
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* 🟢 Webtoon Green Theme */
+  :root {
+    --primary-color: #00c471;
+    --secondary-color: #00a660;
+    --text-color: #333;
+    --bg-light: #f8f8f8;
+  }
+  
+  /* 🏠 Page Wrapper */
+  .app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* 🖼 Images */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* 📱 Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      width: 95%;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .container {
+        width: 100%;
+    }
+}

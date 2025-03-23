@@ -1,0 +1,109 @@
+.footer {
+  background-color: #ffffff;
+  padding: 20px;
+  font-size: 15px;
+}
+
+.footer-notice {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 14px;
+  font-size: 20px;
+}
+.notice-title {
+  font-weight: bold;
+  color: #000;
+  margin-left: 50px;
+}
+.notice-icon {
+  font-size: 12px;
+  color: #454545; 
+}
+.notice-text {
+  color: #000000; 
+}
+.date {
+  color: #9c9b9b;
+  font-size: 15px;
+}
+
+.footer-download {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.footer-download p {
+  font-weight: bold;
+  margin-top: 20px;
+}
+.footer-buttons {
+    display: flex; 
+    justify-content: center;
+    gap: 20px;
+    border-bottom: 1px solid #ddd; 
+}
+.footer-buttons img {
+  height: 35px;
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.social-icons .social-icon {
+  font-size: 20px;
+  margin: 0 15px;
+  color: #333;
+  transition: color 0.3s ease;
+}
+.social-icons .social-icon:hover {
+  color: #00D465; 
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.footer-nav a {
+  margin: 0 10px;
+  color: #000000;
+  text-decoration: none;
+  position: relative;
+}
+.footer-nav a::after {
+  content: "|";
+  margin-left: 18px;
+  color: #ccc;
+}
+.footer-nav a:hover {
+  text-decoration: underline;
+}
+.footer-language select {
+  padding: 5px 8px;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.footer-language select option {
+  color: #333; 
+} 
+.footer-language select option:checked {
+  color: #00D465;
+}
+
+.footer-copyright {
+  text-align: center;
+  font-size: 12px;
+  color: #666;
+}
+
+.footer-copyright img {
+  display: block; 
+  margin: 5px auto 0; 
+  height: 65px;
+}

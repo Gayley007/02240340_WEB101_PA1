@@ -1,0 +1,79 @@
+.navbar {
+  background-color: white;
+  color: black;
+  padding: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 40px; 
+}
+
+.nav-links {
+  display: flex;
+  gap: 35px;
+}
+
+.nav-links a {
+  color: black;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #00D465;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 29px; 
+}
+
+.Logo {
+  height: 50px;
+  width: auto;
+}
+
+.menu-icon, .search-icon, .user-icon {
+  cursor: pointer;
+  font-size: 20px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.search-icon:hover, .user-icon:hover {
+  transform: scale(1.2);
+  color: #00D465;
+}
+
+.login-btn {
+  background-color: rgb(240, 240, 240);
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 10px 25px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 17px;
+  transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+  background-color: #0ee978;
+}
+
+.search-bar {
+  padding: 5px 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.search-bar:focus {
+  border-color: #00D465; 
+}
